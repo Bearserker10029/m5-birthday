@@ -93,6 +93,7 @@ public class Logic
         HashMap<Integer, Boolean> seen = new HashMap<>();
 
         for (int person = 0; person < size; person++) {
+        //random
             int day = random.nextInt(365);
 
             if (seen.containsKey(day)) {
